@@ -25,6 +25,9 @@
                 },
                 "RGB Breathing": {
                     "effects/breathing-rgb-effect.css": ["SP"]
+                },
+                "Christmass": {
+                    "effects/christmass-effect.css": ["SP"]
                 }
             }
         },
