@@ -1,0 +1,66 @@
+{
+    "name": "DellyFooter",
+    "author": "Dellyare",
+    "manifest_version": 4,
+    "version": "v1.0",
+    "target": "System-Wide",
+    "description": "Many settings for tiny footer :3",
+    "inject": {
+        "shared.css": ["SP"]
+    },
+    "patches": {
+        "Effect": {
+            "default": "Blur",
+            "type": "dropdown",
+            "values": {
+                "Blur": {
+                    "effects/blur-effect.css": [ "SP" ]
+                },
+                "Gradient": {
+                    "effects/gradient-effect.css": [ "SP" ]
+                },
+                "RGB": {
+                    "effects/rgb-effect.css": [ "SP" ]
+                },
+                "RGB Rotating": {
+                    "effects/rotating-rgb-effect.css": [ "SP" ]
+                }
+            }
+        },
+        "Size": {
+            "default": "Default",
+            "type": "dropdown",
+            "values": {
+                "1x": {
+                    "sizes/default-size.css": [ "SP" ]
+                },
+                ".75x": {
+                    "sizes/small-size.css": [ "SP" ]
+                },
+                ".5x": {
+                    "sizes/tiny-size.css": [ "SP" ]
+                }
+            }
+        },
+        "Rounded corners": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "checkboxes/round-corners.css": [ "SP" ]
+                }
+            }
+        },
+        "Normal font": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "checkboxes/normal-font.css": [ "SP" ]
+                }
+            }
+        }
+    }
+}
