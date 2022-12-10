@@ -28,6 +28,18 @@
                 },
                 "Christmass": {
                     "effects/christmass-effect.css": ["SP"]
+                },
+                "Transparent": {
+                    "effects/transparent-effect.css": ["SP"]
+                },
+                "Inverted": {
+                    "effects/inverted-effect.css": ["SP"]
+                },
+                "MacOS (Light)": {
+                    "effects/macos-light-effect.css": ["SP"]
+                },
+                "MacOS (Dark)": {
+                    "effects/macos-dark-effect.css": ["SP"]
                 }
             }
         },

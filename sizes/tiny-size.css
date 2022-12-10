@@ -7,6 +7,11 @@
 
 .footer_BasicFooter_3T1iF {
 	min-height: var(--DELLY-footer-height);
+	height: var(--DELLY-footer-height);
+}
+
+.footer_FooterLegend_2JJDH {
+	gap: 3px 10px;
 }
 
 .footericons_SizeMedium_3-w0R,
