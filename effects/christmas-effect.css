@@ -6,7 +6,7 @@
 
 .footer_FooterLegend_2JJDH:after {
 	position: absolute;
-	content: "🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄";
+	content: var(--DELLY-effect-christmas-trees);
 	opacity: .6;
 	left: 50%;
 	color: #fff;
