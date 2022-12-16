@@ -4,7 +4,7 @@
     "manifest_version": 4,
     "version": "v1.0",
     "target": "Keyboard",
-    "description": "Apple like keyboard",
+    "description": "Keyboards in Apple style",
     "inject": {
         "shared.css": ["SP"]
     },
