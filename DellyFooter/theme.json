@@ -78,7 +78,7 @@
                 }
             }
         },
-        "Centered Home Patch": {
+        "Centered Home patch": {
             "default": "No",
             "type": "checkbox",
             "values": {
