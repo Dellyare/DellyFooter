@@ -20,3 +20,12 @@
 .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
     transition: height 1s ease-in-out, font-size 1s ease-in-out;
 }
+
+.gamepadui_BasicHome_3LYP1 .ModalOverlayContent {
+    margin-bottom: var(--DELLY-footer-height);
+}
+
+.gamepaddialog_GamepadDialogContent_InnerWidth_3Xeyd,
+.gamepadpagedsettings_PagedSettingsDialog_PageList_3c_Jp {
+    padding-bottom: var(--DELLY-footer-height);
+}

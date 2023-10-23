@@ -2,7 +2,7 @@
     "name": "DellyFooter",
     "author": "Dellyare",
     "manifest_version": 4,
-    "version": "v1.0",
+    "version": "v1.1",
     "target": "System-Wide",
     "description": "Many settings and effects for footer.",
     "inject": {
@@ -75,6 +75,26 @@
                 "No": {},
                 "Yes": {
                     "checkboxes/normal-font.css": ["SP"]
+                }
+            }
+        },
+        "Remove text": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "checkboxes/remove-font.css": ["SP"]
+                }
+            }
+        },
+        "Remove icons": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "checkboxes/remove-icons.css": ["SP"]
                 }
             }
         }
