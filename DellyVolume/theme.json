@@ -19,9 +19,6 @@
         },
         "Spring": {
           "effects/spring.css": ["SP"]
-        },
-        "Disabled": {
-          "effects/none.css": ["SP"]
         }
       }
     }
