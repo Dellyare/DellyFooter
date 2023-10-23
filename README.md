@@ -11,3 +11,9 @@ ___
 ### [DellyFooter](https://github.com/Dellyare/DellyThemes/tree/main/DellyFooter)
 Footer theme with many effects and customization options.
 ![Image](https://github.com/suchmememanyskill/CssLoader-ThemeDb/raw/main/images/Dellyare/DellyFooter.jpg "DellyFooter")
+
+___
+
+### [DellyVolume](https://github.com/Dellyare/DellyThemes/tree/main/DellyVolume)
+Footer theme with many effects and customization options.
+![Image](https://github.com/suchmememanyskill/CssLoader-ThemeDb/raw/main/images/Dellyare/DellyVolume.jpg "DellyVolume")
