@@ -2,10 +2,28 @@
   "name": "DellyVolume",
   "author": "Dellyare",
   "manifest_version": 4,
-  "version": "v1.0",
+  "version": "v1.1",
   "target": "Tweak",
   "description": "Enhances the appearance of your volume control.",
   "inject": {
-	"shared.css": ["SP"]
+    "shared.css": ["SP"]
+  },
+  "patches": {
+    "Animation": {
+      "default": "Lineral",
+      "type": "dropdown",
+      "values": {
+        "None": {},
+        "Lineral": {
+          "effects/lineral.css": ["SP"]
+        },
+        "Spring": {
+          "effects/spring.css": ["SP"]
+        },
+        "Disabled": {
+          "effects/none.css": ["SP"]
+        }
+      }
+    }
   }
 }

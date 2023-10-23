@@ -13,7 +13,8 @@
 	opacity: .2;
 }
 
-.audio_VolumePopin_2iUUM .gamepadslider_Icon_21uKi {
+.audio_VolumePopin_2iUUM .gamepadslider_Icon_21uKi,
+.audio_VolumePopin_2iUUM .gamepaddialog_FieldIcon_1sC68{
 	display: none;
 }
 
@@ -23,7 +24,6 @@
 	--left-track-color: #FFFFFFF0;
 }
 
-.audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N::before {
-	transition: width .05s linear;
+.audio_VolumePopin_2iUUM .gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
+	content: unset;
 }
-
